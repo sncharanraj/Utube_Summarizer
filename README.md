@@ -2,6 +2,51 @@
 
 A React-based web app that summarizes YouTube videos using Gemini AI and YouTube transcripts. Features include different summary levels (brief, medium, detailed), history tracking, favorites, dark mode, and text-to-speech.
 
+## Screenshots
+
+### 🌟 Home Screen
+
+<div align="center">
+
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![Home Light](./screenshots/home-light.png) | ![Home Dark](./screenshots/home-dark.png) |
+| *Clean gradient interface with URL input* | *Elegant dark theme for comfortable viewing* |
+
+</div>
+
+### 📱 Sidebar Menu
+
+<div align="center">
+
+![Sidebar](./screenshots/sidebar.png)
+
+*Access summary levels, history, and favorites*
+
+</div>
+
+### 🎥 Video Player
+
+<div align="center">
+
+![Video Fetched](./screenshots/video-fetched.png)
+
+*Embedded YouTube player with video information*
+
+</div>
+
+### ✨ AI Summary & Success
+
+<div align="center">
+
+![Summary Success](./screenshots/summary-success.png)
+
+*AI-generated summary with success notification and action buttons*
+
+</div>
+
+---
+
 ## Features
 
 - Extract video info and embed player from YouTube URL
@@ -124,6 +169,34 @@ youtube-summarizer/
 3. Commit changes: `git commit -m 'Add feature'`
 4. Push to branch: `git push origin feature-name`
 5. Open a Pull Request
+
+## Adding Screenshots
+
+Your screenshots are already included! Here's the structure:
+
+```
+screenshots/
+├── home-light.png          # Homepage in light mode
+├── home-dark.png           # Homepage in dark mode
+├── sidebar.png             # Sidebar menu with options
+├── video-fetched.png       # Video player embedded
+└── summary-success.png     # Summary with success message
+```
+
+To update screenshots:
+
+1. **Take new screenshots** using Windows: `Windows + Shift + S` or Mac: `Cmd + Shift + 4`
+
+2. **Save with the same names** in the `screenshots/` folder
+
+3. **Commit changes:**
+   ```bash
+   git add screenshots/
+   git commit -m "Update screenshots"
+   git push
+   ```
+
+The images will automatically update in your GitHub README!
 
 ## License
 
